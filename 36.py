@@ -6,7 +6,7 @@ minimo = salario * 30 / 100
 print('\033[4;34m para pagar uma casa de R${:.2f} em {} anos\033[m'.format(valor, anos))
 print('\033[4;33m a prestaçao sera de R${:.2f}\033[m'.format(prestaçao))
 if prestaçao <= minimo:
-    print('\033[4;32;45mEmprestimo pode ser CANCEDIDO\033[m')
+    print('\033[4;32mEmprestimo pode ser CONCEDIDO\033[m')
 else:
     print('\033[4;31;44mEmprestimo NEGADO!')
 
